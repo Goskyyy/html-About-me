@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Altschool Application form</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+      <li><a href="index.html">Home.</a></li>
+      <li><a href="apply.html">Apply to Altschool.</a></li>
+    </ul>
+    </nav>
+    <hr />
+    <h1>Application Form</h1>
+    <p>Fill in your details.</p>
+    <form action="/signup" method="post">
+      <span>
+        <label for="fname">First name</label>
+        <input type="text" , id="fname" placeholder="Enter first name" />
+        <label for="lname">Last name</label>
+        <input type="text" id="lname" placeholder="Enter last name" />
+      </span>
+      <br /><br /><br />
+
+      <span>
+        <label for="gender">Gender</label>
+        <select name="gender" id="gender">
+          <option>Select gender</option>
+          <option>Male</option>
+          <option>Female</option>
+        </select>
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" placeholder=""/>
+      </span>
+      <br /><br /><br />
+      <span>
+        <label for="email">Email Address</label>
+        <input type="email" , id="email" placeholder="Enter email address" />
+        <label for="Education">Education Level</label>
+        <select name="Education" id="">
+          <option>Select Level of Education</option>
+          <option>Bsc</option>
+          <option>Msc</option>
+          <option>Diploma</option>
+          <option>Doctorate</option>
+          <option>High school/ Secondary school</option>
+        </select>
+      </span>
+      <br /><br /><br />
+      <span>
+        <label for="country">Country</label>
+        <select name="Country" id="">
+          <option>Select your Country</option>
+          <option>Ngeria</option>
+          <option>Ghana</option>
+          <option>Kenya</option>
+          <option>South Africa</option>
+          <option>Others</option>
+        </select>
+        
+        <label for="residence">State/City of Residence</label>
+        <input type="text" id="residence" placeholder="Enter your state of residence" />
+      </span>
+      <br /><br /><br />
+      <span>
+        <label for="employment">Employment Status</label>
+        <select name="employment" id="">
+          <option>Select employment status</option>
+          <option>employed</option>
+          <option>unemployed</option>
+          <option>self-employed</option>
+        </select>
+        
+        <label for="phoneno">Phone number</label>
+        <input type="tel" id="phoneno" placeholder="08154387000" />
+      </span>
+      <br /><br /><br />
+      <span>
+        <label for="sch">Choose School</label>
+        <select name="school" id="">
+          <option>Select school</option>
+          <option>School of Creative Economy</option>
+          <option>School of Business</option>
+        </select>
+      
+        <label for="aboutus">How did you hear about us</label>
+        <select name="about us" id="">
+          <option>Select channel</option>
+          <option>Twitter</option>
+          <option>Facebook</option>
+          <option>Linkedin</option>
+        </select>
+      </span>
+      <br /><br /><br />
+        <label for="scholarship">Scholarship/Discount Code(optional)</label>
+        <input type="text" , id="scholarship" placeholder="Scholarship or student ID or discount codes" />
+    
+      <br /><br />
+      <p>By clicking continue, I agree to <a href="#">Terms of Use </a> and acknowledge <br> that I have read the <a href="#">Privacy Policy</a></p>
+      <input type="button" value="proceed">
+    </form>
+  </body>
+</html>
